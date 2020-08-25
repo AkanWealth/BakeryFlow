@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Bakery Flow</title>
+</head>
+<!--Header-->
+<header class="header">
+    <h1 class="logo"><a href="index.html">Bakery Flow</a></h1>
+    <nav id="navbar">
+        <ul class="nav-link">
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+</header>
+<!--Section-->
+<section class="hero">
+    <div class="hero-content">
+        <h1>WELCOME HOME</h1>
+        <br>
+        <p>How do you wish to celebrate, is it with memories? then if yes we at <a href="./contact.html">Bakery Flow</a> is ready to make your occasion a memory to forever keep</p>
+
+    </div>
+
+</section>
+<!--Content-->
+<section class="content">
+    <img src="/img/cake1.jpg" alt="cake1" class="cake">
+    <img src="/img/cake2.jpg" alt="cake2" class="cake">
+    <img src="/img/cake3.jpg" alt="cake3" class="cake">
+    <img src="/img/cake7.jpg" alt="cake7" class="cake">
+    <img src="/img/cake11.jpg" alt="cake11" class="cake">
+    <img src="/img/cake12.jpg" alt="cake11" class="cake">
+</section>
+<!--Contact Form-->
+<div id="contact-form">
+    <h1 class="l-heading">
+        <Span class="text-primary">Contact Us</Span>
+    </h1>
+    <h2>Please fill the form and we will get back to you</h2>
+    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" class="name" id="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" class="email" id="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" class="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+        <div class="form-group">
+            <div data-netlify-recaptcha="true"></div>
+        </div>
+        <button type="submit" value="Send Message" class="btn">Submit</button>
+    </form>
+</div>
+<!--Footer-->
+<footer class="footer">
+    <div class="social-list">
+        <ul class="social__list">
+            <h3>Connect with me</h3>
+            <div class="icons">
+                <a href="mailto:akan.asanga@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+                <a href="https://instagram.com/">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://twitter.com/">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+        </ul>
+        </div>
+        Builded by AkanWeath &copy; All right reserved.
+</footer>
+</body>
+
+</html>
